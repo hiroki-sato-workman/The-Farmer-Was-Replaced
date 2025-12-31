@@ -6,7 +6,7 @@ count = 0
 worldSize = get_world_size()
 
 # 茂み＆木ライン
-def is_bush_line():
+def is_bush_line() -> bool:
 	return get_pos_x() == 2 or get_pos_x() == 3
 # 人参ライン
 def is_carrot_line():
